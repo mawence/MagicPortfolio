@@ -47,7 +47,7 @@ const home = {
   label: "Home",
   title: `${person.name}`,
   description: `Portfolio design de ${person.role}`,
-  headline: <>Designeur global et Développeur</>,
+  headline: <>Designer global et Développeur</>,
   subline: (
     <>
       Je suis Maxence, étudiant à <InlineCode>CY ÉCOLE DE DESIGN</InlineCode>, fan de tech, passionné de design d'expérience et de sciences sociales.
