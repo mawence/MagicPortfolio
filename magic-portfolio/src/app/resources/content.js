@@ -138,6 +138,9 @@ const about = {
           </>,
           <>
            Développement du projet en HTML CSS JavaScript
+          </>,
+          <>
+           <a href="/work/100METIERS">Voir le projet -&gt;</a>
           </>
         ],
         images: [],
@@ -421,6 +424,11 @@ const graphismes = {
       orientation: "vertical",
     },
     {
+      src: "/images/graphismes/asm1.png",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/graphismes/trainprice.png",
       alt: "image",
       orientation: "horizontal_mid",
@@ -429,11 +437,6 @@ const graphismes = {
       src: "/images/graphismes/deskme.png",
       alt: "image",
       orientation: "horizontal_mid",
-    },
-    {
-      src: "/images/graphismes/train2.png",
-      alt: "image",
-      orientation: "horizontal",
     },
     {
       src: "/images/graphismes/beffroi.png",
@@ -446,11 +449,6 @@ const graphismes = {
       orientation: "square",
     },
     {
-      src: "/images/graphismes/asm1.png",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
       src: "/images/graphismes/takeoff.png",
       alt: "image",
       orientation: "vertical",
@@ -461,17 +459,22 @@ const graphismes = {
       orientation: "horizontal",
     },
     {
-      src: "/images/graphismes/signa.png",
+      src: "/images/graphismes/asm2.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/graphismes/displex.png",
+      src: "/images/graphismes/train2.png",
       alt: "image",
-      orientation: "horizontal_flat",
+      orientation: "horizontal",
     },
     {
-      src: "/images/graphismes/asm2.png",
+      src: "/images/graphismes/scienceinfuze2.png",
+      alt: "image",
+      orientation: "square",
+    },
+    {
+      src: "/images/graphismes/signa.png",
       alt: "image",
       orientation: "vertical",
     },
@@ -481,14 +484,14 @@ const graphismes = {
       orientation: "horizontal",
     },
     {
-      src: "/images/graphismes/arch_letters.png",
-      alt: "image",
-      orientation: "horizontal_flat",
-    },
-    {
       src: "/images/graphismes/played.png",
       alt: "image",
       orientation: "horizontal",
+    },
+    {
+      src: "/images/graphismes/arch_letters.png",
+      alt: "image",
+      orientation: "horizontal_flat",
     },
     {
       src: "/images/graphismes/portmarly.png",
