@@ -68,7 +68,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://www.shanmax.com/PROJECTS/SUBPAGES/CV_MaxenceShan_2025.pdf",
+    link: "/documents/CV_Maxence_Shan_2025.pdf",
   },
   intro: {
     display: true,
