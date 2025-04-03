@@ -130,7 +130,7 @@ const about = {
       },
       {
         company: "Sophie Luxemberg (Coach en orientation)",
-        timeframe: "(3 semaines) 2022",
+        timeframe: "(2 mois) 2022",
         role: "Designer & développeur web (en freelance)",
         achievements: [
           <>
