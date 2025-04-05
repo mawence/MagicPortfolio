@@ -155,11 +155,16 @@ const about = {
       {
         name: "RMIT Australie",
         role: "Lead Designer",
-        description: <>2024 (6 mois) - Echange universitaire</>,
+        description: <>2024 (6 mois) - Echange universitaire : Futur Urban Mobilities, Advanced CAD, Furniture Design, pratique de l'anglais.</>,
       },
       {
-        name: "CY Ecole de design (2022-2027)",
-        description: <>2022-2027 -</>,
+        name: "CY Ecole de design - Saint-Germain-En-Laye",
+        description: <>2022-2027 - Cursus Master Design Global : Méthodologie projet et design, sciences sociales,
+        pratique du dessin, appentissage d'outils créatifs : Photoshop, Illustrator, AfterEffect, Rhino 3D.</>,
+      },
+      {
+        name: "Lycée La Source - Meudon",
+        description: <>2022 - Baccalauréa Général : Spécialités Numérique Sciences Informatiques & Cinéma Audiovisuel </>,
       },
     ],
   },
