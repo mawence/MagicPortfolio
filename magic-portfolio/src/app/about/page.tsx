@@ -163,7 +163,7 @@ export default function About() {
                   }}
                   background="brand-alpha-weak"
                 >
-                  Télécharger le CV (PDF)
+                  Lire le CV (PDF)
                 </Badge>
 
               </Flex>

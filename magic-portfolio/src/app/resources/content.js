@@ -256,6 +256,11 @@ const gallery = {
       orientation: "vertical",
     },
     {
+      src: "/images/gallery/aquarelle2.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/seats.png",
       alt: "image",
       orientation: "square",
