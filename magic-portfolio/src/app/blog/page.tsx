@@ -8,7 +8,7 @@ export async function generateMetadata() {
   const title = blog.title;
   const description = blog.description;
   const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
-
+  
   return {
     title,
     description,
