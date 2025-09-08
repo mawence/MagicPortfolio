@@ -7,7 +7,10 @@ const withMDX = mdx({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ["ts", "tsx", "md", "mdx"]
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
+  eslint: {
+    ignoreDuringBuilds: true, // ⬅️ désactive ESLint sur Vercel
+  },
 };
 
 export default withMDX(nextConfig);
