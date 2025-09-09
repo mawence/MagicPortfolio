@@ -103,7 +103,6 @@ export default function Project({ params }: WorkParams) {
         <Button href="/work" variant="tertiary" weight="default" size="s" prefixIcon="chevronLeft">
           Projects
         </Button>
-        <Heading variant="display-strong-s">{post.metadata.title}</Heading>
       </Column>
       
       {post.metadata.images.length > 0 && (
@@ -115,8 +114,10 @@ export default function Project({ params }: WorkParams) {
           src={post.metadata.images[0]}
         />
       )}
+      
       <Column style={{ margin: "auto" }} as="article" maxWidth="xs">
-        <Flex gap="12" marginBottom="24" vertical="center">
+      <Heading variant="display-strong-s">{post.metadata.title}</Heading>
+        <Flex gap="0" marginBottom="24" vertical="center">
           {post.metadata.team && <AvatarGroup reverse avatars={avatars} size="m" />}
           <Text variant="body-default-s" onBackground="neutral-weak">
             {post.metadata.publishedAt && formatDate(post.metadata.publishedAt)}
