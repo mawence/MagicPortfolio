@@ -87,17 +87,7 @@ const about = {
     display: true, // set to false to hide this section
     title: "Experience professionelle",
     experiences: [
-      {
-        company: "Développement et Web Design",
-        timeframe: "2025",
-        role: "Freelance",
-        achievements: [
-          <>
-            
-          </>
-        ],
-        images: [],
-      },
+      
       {
         company: "Festival Science Infuze",
         timeframe: "(1 mois) 2024",

@@ -1,4 +1,4 @@
-import { Column, Heading, Text } from "@/once-ui/components";
+import { Column, Heading, Text, Button } from "@/once-ui/components";
 
 export default function NotFound() {
   return (
@@ -9,7 +9,11 @@ export default function NotFound() {
       <Heading marginBottom="l" variant="display-default-xs">
         Page Not Found
       </Heading>
-      <Text onBackground="neutral-weak">The page you are looking for does not exist.</Text>
+      <Text onBackground="neutral-weak"></Text>
+      <Button href="/documents/CV_special.jpg" variant="tertiary" weight="default" size="s">
+      The page you are looking for does not exist.
+      </Button>
     </Column>
+    
   );
 }
