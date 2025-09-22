@@ -88,6 +88,17 @@ const about = {
     title: "Experience professionelle",
     experiences: [
       {
+        company: "Développement et Web Design",
+        timeframe: "2025",
+        role: "Freelance",
+        achievements: [
+          <>
+            
+          </>
+        ],
+        images: [],
+      },
+      {
         company: "Festival Science Infuze",
         timeframe: "(1 mois) 2024",
         role: "Stage Design & Marketing",
@@ -141,6 +152,17 @@ const about = {
           </>,
           <>
            <a href="/work/100METIERS">Voir le projet -&gt;</a>
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Renault Design - Guyancourt",
+        timeframe: "2019",
+        role: "Stage d'observation",
+        achievements: [
+          <>
+            Découverte des métiers du design : Modeling 3D, Clay, Couleurs, Inter Exter
           </>
         ],
         images: [],
