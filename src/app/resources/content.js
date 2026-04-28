@@ -6,8 +6,8 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Recherche d'alternance Master 1 & 2",
-  avatar: "/images/avatar_max_zoom.jpeg",
+  role: "Recherche d'alternance Master 2",
+  avatar: "/images/avatar_max_zoom.jpeg", 
   location: "Europe/Paris", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [] // optional: Leave the array empty if you don't want to display languages
 };
@@ -75,11 +75,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Etudiant en 3ème année de design global,
-        j'aime transformer concepts et visions en designs impactants.
-        Ma maîtrise des outils numériques et mes expériences sur des
-        projets variés me permetteront de m'adapter à votre équipe
-        et vos problématiques.
+        Etudiant en 4e année de design global, Maker dans l’âme,
+        Touche à tout, du design à la maquette jusqu'au développement.
+        J’aime construire des projets concrets, tester, casser et recommencer.
+        Créatif, entrepreuneur, curieux et avec une soif d'apprendre.
       </>
     ),
   },
@@ -91,10 +90,13 @@ const about = {
       {
         company: "New Born Crèches",
         timeframe: "2026",
-        role: "Alternance : Développeur Web, Web Designer & Graphiste",
+        role: "Alternance : Développeur Web, Designer, Graphiste & responsable Marketing et communication",
         achievements: [
           <>
-            Développement du site web : WordPress/Prestashop, support, Web Design UX/UI
+            Développement du site web & création d'outils pour les commerciaux équipes de crèche et parents : WordPress/Prestashop, JS, support, Web Design UX/UI
+          </>,
+          <>
+            Marketing & Communication : Google Ads, Meta Business Manager
           </>,
           <>
             Conception graphique : Logo, charte graphique, supports de communication et conseil en stratégie digitale
